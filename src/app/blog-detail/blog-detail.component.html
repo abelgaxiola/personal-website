@@ -1,3 +1,26 @@
-<p>
-  blog-detail works!
-</p>
+<div *ngIf='blog'>
+  <div class="blog blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
+    <main class="mdl-layout__content">
+      <div class="blog__posts mdl-grid">
+        <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+          <div [style.background-image]="'url(' + blog.ImageURL + ')'" class="mdl-card__media mdl-color-text--grey-50">
+            <h3>{{blog.Title}}</h3>
+          </div>
+          <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+            <div class="minilogo"></div>
+            <div>
+              <strong>{{blog.Type}}</strong>
+              <span>{{blog.Date | date}}</span>
+            </div>
+            <div class="section-spacer"></div>
+          </div>
+          <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+            <div [innerHTML]="blog.Post"></div>
+          </div>
+        </div>
+      </div>
+      <footer-app></footer-app>
+    </main>
+    <div class="mdl-layout__obfuscator"></div>
+  </div>
+</div>
