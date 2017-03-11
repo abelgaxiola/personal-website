@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  selector: 'footer-app',
+  template: `
+      <footer class="mdl-mini-footer">
+      <div class="mdl-mini-footer--left-section">
+        <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+              <span class="visuallyhidden">Twitter</span>
+            </button>
+      </div>
+    </footer>
+`
 })
-export class FooterComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class FooterComponent{}
