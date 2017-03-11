@@ -11,6 +11,7 @@ import { BlogArchiveComponent } from './blog-archive/blog-archive.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { BlogService } from './blog/blog.service';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     BlogListComponent,
     BlogArchiveComponent,
     BlogDetailComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,10 @@ import { FooterComponent } from './footer/footer.component';
       { path: 'archive', component: BlogArchiveComponent },
       { path: 'blog', component: BlogComponent },
       { path: 'blog/:id', component: BlogDetailComponent },
-      { path: 'blogs', component: BlogListComponent }
+      { path: 'blogs', component: BlogListComponent },
+      { path: 'home', component: HomeComponent },
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ])
   ],
   providers: [BlogService],
