@@ -1,4 +1,6 @@
-# Abelgaxiola
+# Abel Gaxiola
+## Trying my luck with Angular CLI. 
+### If all goes well this will replace my current site at [http://abelgaxiola.com](http://abelgaxiola.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
