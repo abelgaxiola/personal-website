@@ -1,5 +1,20 @@
 <div class="blog mdl-layout mdl-js-layout has-drawer is-upgraded">
-<header-app></header-app>
+<header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+  <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+      <a class="mdl-navigation__link" [routerLink]="['/home']">HOME</a>
+      <a class="mdl-navigation__link is-active" [routerLink]="['/blog']">BLOG</a>
+      <a class="mdl-navigation__link" href="http://gaxiola.info" target="_blank">FAMILY</a>
+    </nav>
+  </div>
+</header>
+<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+  <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+    <a class="mdl-navigation__link" [routerLink]="['/home']">HOME</a>
+    <a class="mdl-navigation__link is-active" [routerLink]="['/blog']">BLOG</a>
+    <a class="mdl-navigation__link" href="http://gaxiola.info" target="_blank">FAMILY</a>
+  </nav>
+</div>
   <main class="mdl-layout__content">
     <div class="blog__posts mdl-grid">
       <div class="mdl-card mdl-cell mdl-cell--6-col" *ngFor='let blog of blogs | slice:6' [routerLink]="['/blog', blog.Id]">

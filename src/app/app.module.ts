@@ -10,7 +10,6 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogArchiveComponent } from './blog-archive/blog-archive.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { BlogService } from './blog/blog.service';
-import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 
@@ -21,7 +20,6 @@ import { HomeComponent } from './home/home.component';
     BlogListComponent,
     BlogArchiveComponent,
     BlogDetailComponent,
-    HeaderComponent,
     FooterComponent,
     HomeComponent
   ],

@@ -4,8 +4,7 @@ import { BlogService } from './../blog/blog.service';
 
 @Component({
   selector: 'app-blog-list',
-  templateUrl: './blog-list.component.html',
-  styleUrls: ['./blog-list.component.css']
+  templateUrl: './blog-list.component.html'
 })
 export class BlogListComponent implements OnInit {
   errorMessage: string;
