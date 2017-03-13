@@ -11,7 +11,7 @@ import { Blog } from './blog';
 
 @Injectable()
 export class BlogService {
-  private blogsUrl = './src/app/blog/blogs.json';
+  private blogsUrl = './src/app/shared/blogs.json';
 
   constructor(private http: Http) { }
 
@@ -22,10 +22,10 @@ export class BlogService {
       .catch(this.handleError);
   }
 
-    getBlog(id: number): Observable<Blog> {
-        return this.getBlogs()
-            .map((blogs: Blog[]) => blogs.find(p => p.Id === id));
-    }
+  getBlog(id: number): Observable<Blog> {
+    return this.getBlogs()
+      .map((blogs: Blog[]) => blogs.find(p => p.Id === id));
+  }
 
   private handleError(error: Response) {
     // ToDo: Log somewhere else (text-file or database)

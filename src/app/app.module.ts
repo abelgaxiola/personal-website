@@ -9,7 +9,7 @@ import { BlogComponent } from './blog/blog.component';
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogArchiveComponent } from './blog-archive/blog-archive.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
-import { BlogService } from './blog/blog.service';
+import { BlogService } from './shared/blog-service';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 
