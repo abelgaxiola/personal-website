@@ -11,7 +11,7 @@ import { Blog } from './blog';
 
 @Injectable()
 export class BlogService {
-  private blogsUrl = './src/app/shared/blogs.json';
+  private blogsUrl = '/assets/blogs.json';
 
   constructor(private http: Http) { }
 
