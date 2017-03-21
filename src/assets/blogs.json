@@ -1,5 +1,23 @@
 [
   {
+    "Id": 20,
+    "Title": "En Sus Marcas, Listos, Fuera",
+    "Summary": "Este próximo 28 de mayo 2016 una vez más, como todos los años, se llevara a cabo el paseo en bicicleta de Hermosillo a Bahía de Kino. En esta ocasión hago un llamado a todos los que han participado en años pasados para que participen de nuevo en esta ocasión. También quiero hacer un llamado a todos los que no han participado para que participen en esta ocasión. ",
+    "Post": "<p>Este próximo 28 de mayo 2016 una vez más, como todos los años, se llevara a cabo el paseo en bicicleta de Hermosillo a Bahía de Kino. En esta ocasión hago un llamado a todos los que han participado en años pasados para que participen de nuevo en esta ocasión. También quiero hacer un llamado a todos los que no han participado para que participen en esta ocasión. </p><p>Todos los años son especiales y el paseo en bicicleta se hace en honor a un miembro o amigo de la familia. Este año no será una excepción, pues estaremos recordando a alguien que ha sido aliento, ejemplo, y símbolo de este evento familiar: Fernando Xavier Gaxiola.</p><p>La meta no es ganar – por lo menos no para mí – sino participar. Tampoco es obligación pedalear durante 100 kilómetros. La meta es participar y diversión. La meta es unirnos en una actividad saludable y alentar a otros a que hagan lo mismo.</p><p>Así que, si tienes bicicleta súbete a pedalear este año. Si no tienes bicicleta, consíguete una y súbete a pedalear este año. Si conoces a alguien que tiene bicicleta, invítalo a participar. Recuerden que el evento es para amigos y miembros de la familia Gaxiola. Adultos, niños, mujeres, y hombres.</p><p>Nos vemos en la salida de Hermosillo rumbo a Bahía de Kino. Allí estaré esperando el banderazo y las palabras: en sus marcas, listos, fuera…</p>",
+    "Type": "Personal Spanish",
+    "Date": "April 10 2016",
+    "ImageURL": "./assets/images/20.png"
+  },
+  {
+    "Id": 19,
+    "Title": "¿La Última Vez?",
+    "Summary": "Casi toda mi vida he estado asistiendo a reuniones familiares en un lugar u otro. Recuerdo cómo, cuando era niño, solíamos tener reuniones familiares en una playa llamada “El Tetuán” cerca de Culiacán Sinaloa. Años después las reuniones familiares eran mayormente en la casa de nuestros abuelos paternos. Cuando era adulto las reuniones familiares se llevaban a cabo en la ciudad de Guamúchil Sinaloa en un lugar llamado “El Macapule”.",
+    "Post": "<p>Casi toda mi vida he estado asistiendo a reuniones familiares en un lugar u otro. Recuerdo cómo, cuando era niño, solíamos tener reuniones familiares en una playa llamada “El Tetuán” cerca de Culiacán Sinaloa. Años después las reuniones familiares eran mayormente en la casa de nuestros abuelos paternos. Cuando era adulto las reuniones familiares se llevaban a cabo en la ciudad de Guamúchil Sinaloa en un lugar llamado “El Macapule”. Una vez asistí a una reunión familiar en San Diego California. Y durante los últimos 20 años trato de asistir a la reunión familiar que se lleva a cabo todos los años en Hermosillo y Bahía de Kino Sonora – este año no será la excepción. </p><p>De niño asistía porque me llevaban mis padres y no tenía opción alguna. Hoy voy por mi cuenta y la decisión de asistir es muy sencilla: me gusta ir. Este año sin embargo, he estado pensando acerca de otra razón por la cual quiero formar parte de esta reunión familiar. Y la razón es esta: porque esta puede ser la última vez. </p><p>La última vez que vi a mi tío David Gaxiola Campos fue durante una reunión familiar. La última vez que vi a mi primo Maclovio fue durante una reunión familiar; lo mismo me pasó con mi primo Palle y mi prima Raquel. Y con Jorge Gaxiola, Manuel Mayoral, etc. La lista continúa. Y sé, sin lugar a duda, que muchos de los que se reunieron el año pasado vieron vivo a mi hermano Xavier por última vez. </p><p>Así que, ¿por qué voy este año? Para divertirme, para sentirse bien, y porque esta puede ser la última vez… </p><p>Allá nos vemos, </p>",
+    "Type": "Personal Spanish",
+    "Date": "April 1 2016",
+    "ImageURL": "./assets/images/19.png"
+  },
+  {
     "Id": 1,
     "Title": "US Citizenship Test",
     "Summary": "The U.S. Citizenship and Immigration Services provides us with 100 questions and answers that cover American Government, History, and Civics. The test is an oral test and the applicant will be asked 10 questions (taken from the 100 provided) from which at least 6 must be answered correctly in order to pass the test.",
