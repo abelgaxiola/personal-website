@@ -566,15 +566,15 @@ body .blog {
 }
 
 .portfolio-blog-card-full-bg {
-  background: url(/assets/images/example-blog03.jpg) center / cover;
+  background: url(/assets/images/blog02.jpg) center / cover;
 }
 
 .portfolio-blog-card-event-bg {
-  background: url(/assets/images/example-blog05.jpg) center / cover;
+  background: url(/assets/images/blog04.jpg) center / cover;
 }
 
 .portfolio-blog-card-strip-bg {
-  background: url(/assets/images/example-blog06.jpg) center / cover;
+  background: url(/assets/images/blog05.jpg) center / cover;
 }
 
 .portfolio-blog-card-compact .mdl-card__title {
