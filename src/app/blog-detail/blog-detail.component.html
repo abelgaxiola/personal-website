@@ -1,42 +1,35 @@
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" *ngIf='blog'>
-  <div class="blog blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
-    <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-      <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-          <a class="mdl-navigation__link" [routerLink]="['/home']">HOME</a>
-          <a class="mdl-navigation__link is-active" [routerLink]="['/blog']">BLOG</a>
-          <a class="mdl-navigation__link" href="http://gaxiola.info" target="_blank">FAMILY</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+<div class="blog blog--blogpost mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded" *ngIf='blog'>
+
+  <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+    <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
       <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
         <a class="mdl-navigation__link" [routerLink]="['/home']">HOME</a>
         <a class="mdl-navigation__link is-active" [routerLink]="['/blog']">BLOG</a>
         <a class="mdl-navigation__link" href="http://gaxiola.info" target="_blank">FAMILY</a>
       </nav>
     </div>
-    <main class="mdl-layout__content">
-      <div class="blog__posts mdl-grid">
-        <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-          <div [style.background-image]="'url(' + blog.ImageURL + ')'" class="mdl-card__media mdl-color-text--grey-50">
-            <h3>{{blog.Title}}</h3>
+  </header>
+
+  <main class="mdl-layout__content">
+    <div class="blog__posts mdl-grid">
+      <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+        <div [style.background-image]="'url(' + blog.ImageURL + ')'" class="mdl-card__media mdl-color-text--grey-50">
+          <h3>{{blog.Title}}</h3>
+        </div>
+        <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+          <div class="minilogo"></div>
+          <div>
+            <strong>{{blog.Type}}</strong>
+            <span>{{blog.Date | date}}</span>
           </div>
-          <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-            <div class="minilogo"></div>
-            <div>
-              <strong>{{blog.Type}}</strong>
-              <span>{{blog.Date | date}}</span>
-            </div>
-            <div class="section-spacer"></div>
-          </div>
-          <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
-            <div [innerHTML]="blog.Post"></div>
-          </div>
+          <div class="section-spacer"></div>
+        </div>
+        <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+          <div [innerHTML]="blog.Post"></div>
         </div>
       </div>
-      <footer-app></footer-app>
-    </main>
-    <div class="mdl-layout__obfuscator"></div>
-  </div>
+    </div>
+    <footer-app></footer-app>
+  </main>
+  <div class="mdl-layout__obfuscator"></div>
 </div>
