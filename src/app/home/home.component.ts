@@ -9,6 +9,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    var el = document.getElementById('home')!;
+    el.classList.add('is-active');
   }
 
 }

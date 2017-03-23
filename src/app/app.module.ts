@@ -12,6 +12,7 @@ import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { BlogService } from './shared/blog-service';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomeComponent } from './home/home.component';
     BlogArchiveComponent,
     BlogDetailComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
