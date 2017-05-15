@@ -52,7 +52,7 @@ body .blog {
 }
 
 .blog.mdl-layout .mdl-layout__content {
-  padding-top: 230px;
+  padding-top:8px;
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
